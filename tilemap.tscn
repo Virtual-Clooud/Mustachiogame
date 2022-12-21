@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="TileSet" id=5]
+
+[node name="TileMap" type="TileMap"]
+tile_set = SubResource( 5 )
+cell_size = Vector2( 32, 32 )
+show_collision = true
+centered_textures = true
+cell_clip_uv = true
+format = 1

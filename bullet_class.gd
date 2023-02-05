@@ -3,6 +3,9 @@ class_name Bullet
 
 export var dmg : int = 5
 export var life_time = 0.7
+export var status : Array = []
+export var speed : int = 800
+onready var velocity = Vector2()
 var born_frame
 func _ready():
 	born_frame = Engine.get_frames_drawn()

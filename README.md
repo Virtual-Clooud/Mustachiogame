@@ -6,7 +6,7 @@ share: true
 # Flow:
 Jogador começa em uma área central que possue conexões para as outras áreas perigosas do mundo ao redor.
 ## Dungeons:
-Campanhas que o jogador embarca, cada dungeon possui inimigos que refletem essa área
+Campanhas que o jogador embarca, cada dungeon possui inimigos que refletem essa área com um boss no final de cada área
 ## Boss:
 Únicos para cada área, ao eliminá-los o jogador pega seus bigodes que o dá uma habilidade que o auxilia no combate
 # Jogador:

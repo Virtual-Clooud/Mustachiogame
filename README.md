@@ -22,7 +22,7 @@ Jogador no decorrer da jornada pode modificar a arma pra imbuir cada 1 dos tiros
 ## Ultimate:
 Item adquirido ao matar boss que precisa ser carregado antes de usá-lo
 ## Equipamentos
-2 equipamentos que podem ser itens, passivos, condicionais e ativos
+2 equipamentos que podem ser itens, passivos, condicionais e ativos L
 
 
 

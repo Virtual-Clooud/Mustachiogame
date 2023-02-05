@@ -1,4 +1,5 @@
 
+
 ---
 share: true
 ---
@@ -16,6 +17,15 @@ Jogador possue três vidas que não se recuperam rápido, possue Dash para facil
 ## Armas:
 4 armas que possuem 1 tiro primário e secundário
 Cada arma encorajada 1 tipo de gameplay diferente
+### Atributos:
+Cada área é centrada ao redor de um tema, lentidão, sangramento etc
+Jogador no decorrer da jornada pode modificar a arma pra imbuir cada 1 dos tiros com um atributo.
+## Ultimate:
+Item adquirido ao matar boss que precisa ser carregado antes de usá-lo
+## Equipamentos
+2 equipamentos que podem ser itens, passivos, condicionais e ativos
+
+
 
 
 

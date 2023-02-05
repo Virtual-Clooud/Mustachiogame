@@ -11,3 +11,4 @@ share: true
 # 4 área
 	
 # 4 arma 
+- [ ] Fazer godot publicar pro github

@@ -8,18 +8,18 @@ var velocity = Vector2(0,0)
 
 func move():
 	if Input.is_action_pressed("left"):
-		velocity.x = -speed
+		velocity.x = lerp(velocity.x, -speed, 0.2)
 	elif Input.is_action_pressed("right"):
-		velocity.x = speed
+		velocity.x = lerp(velocity.x, speed, 0.2)
 	else:
-		velocity.x = 0
+		velocity.x = lerp(velocity.x, 0, 0.2)
 		
 	if Input.is_action_pressed("up"):
-		velocity.y = -speed
+		velocity.y = lerp(velocity.y, -speed, 0.2)
 	elif Input.is_action_pressed("down"):
-		velocity.y = speed
+		velocity.y = lerp(velocity.y, speed, 0.2)
 	else:
-		velocity.y = 0
+		velocity.y = lerp(velocity.y, 0, 0.2)
 func die():
 	get_tree().get_root().queue_free()
 func _physics_process(delta):

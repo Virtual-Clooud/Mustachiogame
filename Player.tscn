@@ -14,9 +14,14 @@ radius = 40.0125
 
 [node name="player" type="KinematicBody2D"]
 script = ExtResource( 1 )
+speed = 350
 
 [node name="gun" parent="." instance=ExtResource( 5 )]
-dmg = 2
+cadency = 0.2
+dmg = 7.0
+alt_dmg = 4.0
+bullet_speed = 1600.0
+alt_bullet_speed = 1800.0
 
 [node name="Sprite" type="Sprite" parent="."]
 scale = Vector2( 0.5, 1.2 )

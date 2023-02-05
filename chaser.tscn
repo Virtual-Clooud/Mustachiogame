@@ -8,18 +8,20 @@
 extents = Vector2( 80, 88 )
 
 [sub_resource type="RectangleShape2D" id=6]
-extents = Vector2( 64, 80 )
+extents = Vector2( 56, 72 )
 
 [node name="chaser" type="KinematicBody2D"]
 position = Vector2( 720, -48 )
+scale = Vector2( 0.5, 0.5 )
+collision_layer = 15
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
 }
-maxlife = 10
-life = 10
-pain = 19
-drop_moeda = 10
+maxlife = 100
+maxspeed = 300
+ded_sprite = ExtResource( 2 )
+pain = 15
 
 [node name="Sprite" type="Sprite" parent="."]
 texture = ExtResource( 2 )

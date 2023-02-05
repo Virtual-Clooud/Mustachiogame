@@ -2,8 +2,7 @@
 ---
 share: true
 ---
-
-![Header](header.png "Text to show on mouseover")`.
+![[Pasted image 20230205145737.jpg]]
 # Mustachio Game
 	Um jogo que pode acabar em processo :)
 # Flow:

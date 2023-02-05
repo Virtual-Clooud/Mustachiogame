@@ -1,9 +1,6 @@
-
-
 ---
 share: true
 ---
-![[Pasted image 20230205145737.jpg]]
 # Mustachio Game
 	Um jogo que pode acabar em processo :)
 # Flow:

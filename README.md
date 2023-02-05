@@ -7,6 +7,8 @@ share: true
 Jogador começa em uma área central que possue conexões para as outras áreas perigosas do mundo ao redor.
 ## Dungeons:
 Campanhas que o jogador embarca, cada dungeon possui inimigos que refletem essa área com um boss no final de cada área
+### Inimigos:
+Todos os inimigos seguem um arquétipo mas possuem diferenças que refletem as áreas que estão
 ## Boss:
 Únicos para cada área, ao eliminá-los o jogador pega seus bigodes que o dá uma habilidade que o auxilia no combate
 # Jogador:
